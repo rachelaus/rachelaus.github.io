@@ -1,0 +1,60 @@
+body {
+    background-color: #e1f5f5;
+		font-family: "Avenir";
+}
+
+#content {
+	position: relative;
+	margin: auto;
+  width: 55%;
+}
+
+#name {
+	font-size: 40px;
+	white-space: nowrap;
+}
+
+#about {
+	font-size: 20px;
+}
+
+.list {
+	font-size: 20px;
+}
+
+.category {
+	font-size: 25px;
+}
+
+.contact {
+	text-align: center;
+}
+
+.row {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+
+.column {
+	flex-direction: column;
+	position: relative;
+	margin-left: 200px;
+	margin-top: 20px;
+	width: 50%;
+	font-weight: bold;
+}
+
+a {
+	 text-decoration: none;
+ }
+
+a:link {
+    color:#966e96;
+  }
+a:hover {
+	    color:#feffb8;
+		}
+a:visited {
+		    color:#966e96;
+		  }
